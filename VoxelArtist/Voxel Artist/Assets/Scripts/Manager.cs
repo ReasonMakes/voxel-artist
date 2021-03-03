@@ -19,7 +19,7 @@ public class Manager : MonoBehaviour
         //VSync off
         QualitySettings.vSyncCount = 0;
 
-        //Refresh rate
+        //Set target refresh rate
         Time.fixedDeltaTime = 1f / targetRefreshRate;
         Application.targetFrameRate = targetRefreshRate;
     }
